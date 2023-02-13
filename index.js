@@ -1,9 +1,9 @@
 
 const musicAPI = "http://localhost:3000/Songs"
 const musicL = document.getElementById("music-list")
-const newCard = document.getElementById('new-song')
+const musicForm = document.getElementById('new-song')
 
-newCard.addEventListener('submit', e=> {
+musicForm.addEventListener('submit', e=> {
     e.preventDefault()
 
 const newMusicCard = {
@@ -28,25 +28,26 @@ fetch(musicAPI)
     .then( r => r.json())
     .then(musicArray => {
         musicArray.forEach(musicObj => {
-            console.log(musicObj)
+            renderMusicList(musicObj)
             
         });
     })
 
-
 function renderMusicList(musicObj) {
-    const musicDiv = document.createElement("div")
-    musicDiv.className = 'card'
-    musicDiv.innerHTML = `
+   const musicDiv = document.createElement("div")
+   musicDiv.className = 'card'
+   musicDiv.innerHTML = `
     <h2></h2>
     <h3></h3>
     <img class='album-cover' />
     <p></p>
-    <button class='listen-button'>Listen</button>`
+    <button class='listen-button'>Listen</button>
+    `
 
-    musicDiv.querySelector("h2").textContent = musicObj.artist
-    musicDiv.querySelector("h3").textContent = musicObj.title
-    musicDiv.querySelector("img").src = musicObj.album
-    musicDiv.querySelector("button").src = musicObj.link
-    musicL.append(musicDiv)
+   musicDiv.querySelector("h2").textContent = musicObj.artist
+   musicDiv.querySelector("h3").textContent = musicObj.title
+   musicDiv.querySelector("img").src = musicObj.album
+   musicDiv.querySelector("button").src = musicObj.link
+   
+   musicL.append(musicDiv)
 }
