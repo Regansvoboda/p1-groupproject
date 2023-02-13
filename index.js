@@ -21,7 +21,7 @@ function renderMusicList(musicObj) {
     <h3></h3>
     <img />
     <p></p>
-    <button>Listen 🎧 </button>`
+    <button>Listen</button>`
 
     musicDiv.querySelector("h2").textContent = musicObj.artist
     musicDiv.querySelector("h3").textContent = musicObj.title
