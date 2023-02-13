@@ -26,6 +26,6 @@ function renderMusicList(musicObj) {
     musicDiv.querySelector("h2").textContent = musicObj.artist
     musicDiv.querySelector("h3").textContent = musicObj.title
     musicDiv.querySelector("img").src = musicObj.album
-    
+    musicDiv.querySelector("button").src = musicObj.link
     musicL.append(musicDiv)
 }
