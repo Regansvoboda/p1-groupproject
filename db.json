@@ -1,45 +1,39 @@
 {
   "Songs": [
     {
-        "id": "1",
-        "artist": "Mariah Carey",
-        "title": "Fantasy",
-        "album": "https://upload.wikimedia.org/wikipedia/en/9/95/Mariah_Carey_-_Daydream.png",
-        "link": "https://www.youtube.com/watch?v=IWfYIUBiTKA"
-
-
+      "id": "1",
+      "artist": "Mariah Carey",
+      "title": "Fantasy",
+      "album": "https://upload.wikimedia.org/wikipedia/en/9/95/Mariah_Carey_-_Daydream.png",
+      "link": "https://www.youtube.com/watch?v=IWfYIUBiTKA"
     },
     {
-        "id": "2",
-        "artist": "Michael Jackson",
-        "title": "Smooth Criminal",
-        "album": "https://upload.wikimedia.org/wikipedia/en/3/33/Smooth_Criminal.jpg",
-        "link": "https://www.youtube.com/watch?v=h_D3VFfhvs4"
-
+      "id": "2",
+      "artist": "Michael Jackson",
+      "title": "Smooth Criminal",
+      "album": "https://upload.wikimedia.org/wikipedia/en/3/33/Smooth_Criminal.jpg",
+      "link": "https://www.youtube.com/watch?v=h_D3VFfhvs4"
     },
     {
-        "id": "3",
-        "artist": "Pitbull",
-        "title": "Hotel Room Service",
-        "album": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png/220px-Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png",
-        "link": "https://www.youtube.com/watch?v=DxIL6dio2CI"
-
+      "id": "3",
+      "artist": "Pitbull",
+      "title": "Hotel Room Service",
+      "album": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png/220px-Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png",
+      "link": "https://www.youtube.com/watch?v=DxIL6dio2CI"
     },
     {
-        "id": "4",
-        "artist": "Elvis Presley",
-        "title": "Heartbreak Hotel",
-        "album": "https://upload.wikimedia.org/wikipedia/en/4/4c/Elvis-presley-heartbreak-hotel-rca-victor-2-s-removebg-preview.png",
-        "link": "https://www.youtube.com/watch?v=e9BLw4W5KU8"
-
+      "id": "4",
+      "artist": "Elvis Presley",
+      "title": "Heartbreak Hotel",
+      "album": "https://upload.wikimedia.org/wikipedia/en/4/4c/Elvis-presley-heartbreak-hotel-rca-victor-2-s-removebg-preview.png",
+      "link": "https://www.youtube.com/watch?v=e9BLw4W5KU8"
     },
     {
-        "id": "5",
-        "artist": "Cardi B",
-        "title": "WAP",
-        "album": "https://upload.wikimedia.org/wikipedia/en/f/f4/Cardi_B_-_WAP_%28feat._Megan_Thee_Stallion%29.png",
-        "link": "https://www.youtube.com/watch?v=hsm4poTWjMs"
-
+      "id": "5",
+      "artist": "Cardi B",
+      "title": "WAP",
+      "album": "https://upload.wikimedia.org/wikipedia/en/f/f4/Cardi_B_-_WAP_%28feat._Megan_Thee_Stallion%29.png",
+      "link": "https://www.youtube.com/watch?v=hsm4poTWjMs"
     }
   ]
 }

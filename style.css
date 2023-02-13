@@ -1,7 +1,44 @@
+body {
+    background-color: #36454F;
+}
+
 .Music-heading {
   text-align: center;
+  color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .form {
     text-align: center;
+    color:antiquewhite
+}
+
+.card {
+  text-align: center;
+  background-color: #9FE2BF;
+  border: #6082B6 solid 1px;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 15rem;
+  height: 25rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+}  
+
+.album-cover {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+.listen-button {
+    position: relative;
+    background-color: ;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: greenyellow;
+    font-size: 18px;
+    justify-self: center
 }
