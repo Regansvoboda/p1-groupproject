@@ -1,16 +1,15 @@
 
 const musicAPI = "http://localhost:3000/Songs"
 const musicL = document.getElementById("music-list")
-const musicForm = document.getElementById('new-song')
+const newCard = document.getElementById('new-song')
 
-musicForm.addEventListener('submit', e=> {
+newCard.addEventListener('submit', e=> {
     e.preventDefault()
 
 const newMusicCard = {
     title: e.target.title.value,
     artist: e.target.artist.value,
     album: e.target.album.value,
-    link: e.target.link.value
 }
 
 fetch(musicAPI, {
