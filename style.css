@@ -1,10 +1,10 @@
 body {
     background-image: url("https://i.pinimg.com/736x/67/89/3d/67893d8635879212caf58ac6d01e8c73.jpg");
     background-size: cover;
-    background-position: center; 
-    /* background-color:#36454F;   */
+    background-position: center;
+    height: 2000px;
 }
-
+   
 .Music-heading {
   text-align: center;
   color: antiquewhite;
@@ -14,7 +14,8 @@ body {
 .submit-form {
     text-align: center;
     color:antiquewhite;
-   
+    position: sticky; top:0;
+    background-color: black;
 }
 
 .card {
@@ -61,6 +62,34 @@ body {
     font-size: 18px;
     justify-self: center
 }
+
+
+#hot-artist-title {
+  text-align: center;
+  color: antiquewhite;
+  background-color: #36454F;
+}
+
+.name {
+  text-align: center;
+  color: antiquewhite;
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.hot-div {
+ text-align: center;
+}
+
+.hot-div img {
+  width: 450px;
+  height: 300px;
+}
+
+
 /* #create-button {
   
 } */
