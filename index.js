@@ -41,7 +41,8 @@ function renderMusicList(musicObj) {
     musicDiv.innerHTML = `
     <h2></h2>
     <h3></h3>
-    <img class='album-cover' />`
+    <img class='album-cover' />
+    `
     
     // <button id='listen-button' class='listen-button'>Listen</button>
     
