@@ -59,9 +59,17 @@ function showMessage() {
     alert("Thank you for submitting!")
 }
 button.addEventListener('mouseover', (e)=> {
-    e.target.style.backgroundColor = "red"
+    e.target.style.backgroundColor = "#36454F"
+    e.target.style.color = "whitesmoke"
+    e.target.style.cursor = "pointer"
+    e.target.style.height = "40px"
+    e.target.style.width = "80px"
 })
 
 button.addEventListener('mouseout', (e)=> {
     e.target.style.backgroundColor = "white"
+    e.target.style.cursor = "auto"
+    e.target.style.height = "auto"
+    e.target.style.width = "auto"
+    e.target.style.color = "black"
 })
