@@ -2,6 +2,7 @@
 const musicAPI = "http://localhost:3000/Songs"
 const musicL = document.getElementById("music-list")
 const newCard = document.getElementById('new-song')
+const popularSong = "http://localhost:3000/Popular-Songs"
 
 
 newCard.addEventListener('submit', e=> {
@@ -73,3 +74,4 @@ button.addEventListener('mouseout', (e)=> {
     e.target.style.width = "auto"
     e.target.style.color = "black"
 })
+
