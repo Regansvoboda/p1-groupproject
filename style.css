@@ -1,5 +1,5 @@
 body {
-    background-color: #36454F;
+    background-image: url("https://ma-hub.imgix.net/wp-images/2019/05/29222105/royalty-free-music-Ambient.jpg?w=1600&h=850&auto=format");
 }
 
 .Music-heading {
@@ -15,7 +15,7 @@ body {
 
 .card {
   text-align: center;
-  background-color: #9FE2BF;
+  background-image: linear-gradient(to bottom left,aqua, #9FE2BF,#4169E1);
   border: #6082B6 solid 1px;
   border-radius: 7px;
   padding: 1rem;
