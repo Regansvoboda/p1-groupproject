@@ -7,21 +7,40 @@ body {
    
 .Music-heading {
   text-align: center;
-  color: antiquewhite;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #36454F;
+  text-shadow: #36454F;
+  font-family: Bradley Hand, cursive;
+  border-style: solid;
+  border-color: #CCCCFF;
+  background-color: #FF5733;
 }
 
 .submit-form {
     text-align: center;
-    color:antiquewhite;
+    font-size: 36px;
+    font-family: impact;
+    font-weight: lighter;
     position: sticky; top:0;
-    background-image: linear-gradient(to bottom, #5D3FD3, #4169E1);
+    /*background-image: linear-gradient(to bottom,#FF5733, pink, #E35335);*/
+}
+
+.new-song {
+  color: #CCCCFF;
+  text-shadow: 2px 2px #3F00FF;
+}
+
+.submit-p {
+  font-size: 25px;
+  color: #CCCCFF;
+  text-shadow: 2px 2px #3F00FF;
+  background-image: linear-gradient(to right,#CCCCFF, #3F00FF,);
 }
 
 .card {
   text-align: center;
   background-image: linear-gradient(to bottom left,aqua, #9FE2BF,#4169E1);
-  border: #6082B6 solid 1px;
+  border-style: solid;
+  border-color: #FF5733;
   border-radius: 7px;
   padding: 1rem;
   width: 15rem;
@@ -83,17 +102,26 @@ p {
 .hot-div {
  text-align: center;
  background-color: #6082B6;
+ padding-top: 50px;
+ padding-bottom: 50px;
 }
 
-.hot-div .ha1 img,
-.hot-div
+.ha1 img {
+  width: 450px;
+  height: 300px;
+}
+
 .ha2 img{
   width: 450px;
   height: 300px;
 }
 
-.hot-div .ha3 img ,
-.hot-div .ha4 img{
+.ha3 img{
+  width: 400px;
+  height: 300px;
+}
+
+.ha4 img{
   width: 400px;
   height: 300px;
   text-align: center;
@@ -102,9 +130,8 @@ p {
 .user-pic img {
   display: inline;
   float: left;
-  padding: 150px;
+  padding: 170px;
   width: 25%;
-  /*text-align: -webkit-match-parent;*/
 }
 
 .duggan img {
@@ -116,10 +143,12 @@ p {
   width: 125px;
   border-radius: 50%;
 }
+
 .laurence img {
   width: 125px;
   border-radius: 50%;
 }
+
 .regan img {
   width: 125px;
   border-radius: 50%;

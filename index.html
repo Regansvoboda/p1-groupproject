@@ -1,141 +1,92 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <title>Group Project</title>
-        <link rel="stylesheet" href="style.css" />
-        <script defer type="text/javascript" src="index.js"></script>
-      </head>
+  <head>
+    <title>Group Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer type="text/javascript" src="index.js"></script>
+  </head>
 
-    <body>
-      <h1 class="Music-heading">
-        104.5 WERZ "THE GRAVY"
-      </h1>  
-       <div class="submit-form">
-         <form id="new-song">
-           <h4>SONG QUEUE</h4>
-           <p>"WANT TO HEAR YOUR SONG? ENTER IT HERE AND WE'LL PLAY IT ON THE NEXT SHOW!"</p>
-           <label for="title">Title: </label>
-           <input type="text" name="title" id="" value="" placeholder="Insert Title..." />
+<body>
+  <h1 class="Music-heading">104.5 WERZ "THE GRAVY"</h1>  
+  <div class="submit-form">
+    <form id="new-song">
+      <p class="submit-p">"WANT TO HEAR YOUR SONG? ENTER IT HERE AND WE'LL PLAY IT ON THE NEXT SHOW!"</p>
+      
+      <label for="title">Title: </label>
+      <input type="text" name="title" id="" value="" placeholder="Insert Title..." />
           
-           <label for="artist">Artist: </label>
-           <input type="text" name="artist" id="" value="" placeholder="Insert Artist..." />
+      <label for="artist">Artist: </label>
+      <input type="text" name="artist" id="" value="" placeholder="Insert Artist..." />
           
-           <label for="album">Album: </label>
-           <input type="text" name="album" id="" value="" placeholder="Insert Album Link..." />
+      <label for="album">Album: </label>
+      <input type="text" name="album" id="" value="" placeholder="Insert Album Link..." />
                     
-           <input id="create-button" type="submit" value="Create" />
-        
-           
-         </form>
-       </div>
+      <input id="create-button" type="submit" value="Create" />
+    </form>
+  </div>
        
 
-       <div id="main-page">
+<div id="main-page">
        
-          <div id="music-list">
-             <ul>
-             </ul>
-          </div>
+  <div id="music-list">
+    <ul>
+    </ul>
+  </div>
     
-      <h1 id="hot-artist-title">Hot Artist Today</h1>
-      
-      <div class="hot-div">
+ <h1 id="hot-artist-title">Hot Artist Today</h1>
+  <div class="hot-div">
+    <div id="name1" class="ha1">
+       <h2 class="ha1">SZA</h2>
+       <img src="https://imageio.forbes.com/specials-images/imageserve/600e12d05d17c0633f005e00/0x0.jpg?format=jpg&width=1200">
+       <p id="p1" class="hide"> blah blah</p>
+    </div>  
         
-        <div id="name1" class="ha1">
-          <h2 class="ha1">SZA</h2>
-            <img src="https://imageio.forbes.com/specials-images/imageserve/600e12d05d17c0633f005e00/0x0.jpg?format=jpg&width=1200">
-            <p id="p1" class="hide"> blah blah</p>
-        </div>  
-        
-        <div id="name2" class="ha2">
-          <h2 class="ha2">Morgan Wallen</h2>
-            <img src="https://www.billboard.com/wp-content/uploads/2022/12/Morgan-Wallen-press-2022-cr-John-Shearer-billboard-1548.jpg">
-            <p class="hide">blah blah</p>
-        </div>
+    <div id="name2" class="ha2">
+      <h2 class="ha2">Morgan Wallen</h2>
+        <img src="https://www.billboard.com/wp-content/uploads/2022/12/Morgan-Wallen-press-2022-cr-John-Shearer-billboard-1548.jpg">
+        <p class="hide">blah blah</p>
+    </div>
 
-        <div id="name3" class="ha3">
-          <h2 class="ha3">Harry Styles</h2>
-            <img src="https://media.npr.org/assets/img/2020/02/27/wide-use_hpromophoto_helenepambrun-72fdb64792139d94a06f18686d0bb3131a238a70-s1100-c50.jpg">
-            <p class="hide">blah  blah</p>
-        </div>
+    <div id="name3" class="ha3">
+      <h2 class="ha3">Harry Styles</h2>
+        <img src="https://media.npr.org/assets/img/2020/02/27/wide-use_hpromophoto_helenepambrun-72fdb64792139d94a06f18686d0bb3131a238a70-s1100-c50.jpg">
+        <p class="hide">blah  blah</p>
+    </div>
 
-        <div id="name4" class="ha4">
-          <h2 class="ha4">Zach Bryan</h2>
-            <img src="https://static.stereogum.com/uploads/2022/07/27ABF3C5-71C5-4340-88BF-3CDF9D5E14CD-1657994613.jpeg">
-            <p class="hide">blah blah </p>
-        </div>
-
-      
+    <div id="name4" class="ha4">
+      <h2 class="ha4">Zach Bryan</h2>
+        <img src="https://static.stereogum.com/uploads/2022/07/27ABF3C5-71C5-4340-88BF-3CDF9D5E14CD-1657994613.jpeg">
+        <p class="hide">blah blah </p>
+    </div>
+  </div>
+  
+  
+  <div class="user-pic">  
+    <div class="duggan">
+      <div>
+        <img src="images/IMG_1048 (1).jpg" alt="" title="">
       </div>
-
-
-            
-            
-
-            
-            
-
-          </div>
+      <!-- <figcaption class="card-title">Duggan SHOW</figcaption> -->
+    </div>
+      
+    <div class="mason">
+      <img src="images/Little Me (1).jpg" alt="" title="">
+      <!-- <figcaption class="card-title">Mason</figcaption> -->
+    </div>    
        
-       
-       
-       
-       
-       
-       
-       
-        </div>
-
-
-  <ul class="user-pic">  
-    <li class="duggan">
-      <figure>
-        <div>
-          <img src="images/IMG_1048.jpg" alt="" title="">
-        </div>
-        <figcaption class="card-title">Duggan SHOW</figcaption>
-      </figure>
-    </li>
+    <div class="laurence">
+      <div>
+        <img src="images/img_3655_720 (1).jpg" alt="" title="">
+      </div>
+      <!-- <figcaption class="card-title">Laurence</figcaption> -->
+    </div>
     
-    <li class="mason">
-      <figure>
-        <div>
-          <img src="images/Little Me.jpg" alt="" title="">
-        </div>
-        <figcaption class="card-title">Mason</figcaption>
-      </figure>
-    </li>    
-       
-    <li class="laurence">
-      <figure>
-        <div>
-          <img src="images/img_3655_720.jpg" alt="" title="">
-        </div>
-        <figcaption class="card-title">Laurence</figcaption>
-      </figure>
-    </li>
-    
-    <li class="regan">
-      <figure>
-        <div>
-          <img src="images/IMG_5851copy.jpg" alt="" title="">
-        </div>
-        <figcaption class="card-title">Regan</figcaption>
-      </figure>
-    </li>
-  </ul>
-
-
-
-
-    </body>
-
-
-
-
-
-
-
-
-
+    <div class="regan">
+      <div>
+        <img src="images/IMG_5851copy.jpg" alt="" title="">
+      </div>
+      <!-- <figcaption class="card-title">Regan</figcaption> -->
+    </div>
+</div>
+</body>
 </html>

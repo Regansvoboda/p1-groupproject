@@ -82,12 +82,16 @@ const name1 = document.getElementById("name1")
 
 showMe = (e)=> {
     e.preventDefault()
-    // console.log(e.target.parentNode)
-    // console.log(e.target.querySelector("img"))
     let sele = e.target.parentNode.id
     let para = document.querySelector(`#${sele} > p`)
-    para.style.fontSize = "50px";
-    // make the p innertext expand
+    console.log(para)
+    if (para.style.fontSize === "50px") {
+        console.log("#1")
+        para.style.fontSize = "0px";
+    } else {
+        console.log("fix it")
+        para.style.fontSize = "50px";
+    }
 }
 
 name1.addEventListener("click", showMe)
