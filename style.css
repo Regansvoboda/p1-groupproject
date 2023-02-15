@@ -1,0 +1,131 @@
+body {
+    background-image: url("https://i.pinimg.com/736x/67/89/3d/67893d8635879212caf58ac6d01e8c73.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 2000px;
+}
+   
+.Music-heading {
+  text-align: center;
+  color: antiquewhite;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.submit-form {
+    text-align: center;
+    color:antiquewhite;
+    position: sticky; top:0;
+}
+
+.card {
+  text-align: center;
+  background-image: linear-gradient(to bottom left,aqua, #9FE2BF,#4169E1);
+  border: #6082B6 solid 1px;
+  border-radius: 7px;
+  padding: 1rem;
+  width: 15rem;
+  height: 20rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  flex-direction: column;
+}  
+
+.card:hover {
+  color: var(--white);
+  background-image: linear-gradient(white, gray);
+  
+}
+
+#main-page #music-list {
+  padding: 3rem 0 3rem 2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll
+}
+
+.album-cover {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+}
+
+.listen-button {
+    position: relative;
+    background-color: #36454F;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: max-content;
+    color: greenyellow;
+    font-size: 18px;
+    justify-self: center
+}
+
+
+#hot-artist-title {
+  text-align: center;
+  color: antiquewhite;
+  background-color: #36454F;
+}
+
+.name {
+  text-align: center;
+  color: antiquewhite;
+}
+
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+
+.hot-div {
+ text-align: center;
+
+}
+
+.hot-div .ha1 img,
+.hot-div
+.ha2 img{
+  width: 450px;
+  height: 300px;
+}
+
+.hot-div .ha3 img ,
+.hot-div .ha4 img{
+  width: 400px;
+  height: 300px;
+  text-align: center;
+}
+
+.user-pic img {
+  display: inline;
+  float: left;
+  padding: 150px;
+  width: 25%;
+  /*text-align: -webkit-match-parent;*/
+}
+
+.duggan img {
+  width: 125px;
+  border-radius: 50%;
+} 
+
+.mason img {
+  width: 125px;
+  border-radius: 50%;
+}
+.laurence img {
+  width: 125px;
+  border-radius: 50%;
+}
+.regan img {
+  width: 125px;
+  border-radius: 50%;
+}
+p.hide{
+  font-size: 0px;
+}
+.card p {
+  font-size: 0px;
+}
