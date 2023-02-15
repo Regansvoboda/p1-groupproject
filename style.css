@@ -15,6 +15,7 @@ body {
     text-align: center;
     color:antiquewhite;
     position: sticky; top:0;
+    background-image: linear-gradient(to bottom, #5D3FD3, #4169E1);
 }
 
 .card {
@@ -41,7 +42,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: row;
-  overflow-x: scroll
+  overflow-x: scroll;
+  background-image: linear-gradient(to top, #5D3FD3, #4169E1);
 }
 
 .album-cover {
@@ -66,7 +68,6 @@ body {
 #hot-artist-title {
   text-align: center;
   color: antiquewhite;
-  background-color: #36454F;
 }
 
 .name {
@@ -81,7 +82,7 @@ p {
 
 .hot-div {
  text-align: center;
-
+ background-color: #6082B6;
 }
 
 .hot-div .ha1 img,
