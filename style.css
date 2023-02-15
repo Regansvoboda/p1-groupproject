@@ -62,6 +62,9 @@ body {
     justify-self: center
 }
 
+.videoDiv {
+  text-align: center;
+}
 
 #hot-artist-title {
   text-align: center;
