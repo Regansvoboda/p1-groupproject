@@ -126,3 +126,6 @@ p {
 p.hide{
   font-size: 0px;
 }
+.card p {
+  font-size: 0px;
+}

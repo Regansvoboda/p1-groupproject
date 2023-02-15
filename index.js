@@ -37,11 +37,13 @@ fetch(musicAPI)
 
 function renderMusicList(musicObj) {
     const musicDiv = document.createElement("div")
+
     musicDiv.className = 'card'
     musicDiv.innerHTML = `
     <h2></h2>
     <h3></h3>
     <img class='album-cover' />
+    <p></p>
     `
     
     // <button id='listen-button' class='listen-button'>Listen</button>
@@ -49,8 +51,23 @@ function renderMusicList(musicObj) {
     musicDiv.querySelector("h2").textContent = musicObj.artist
     musicDiv.querySelector("h3").textContent = musicObj.title
     musicDiv.querySelector("img").src = musicObj.album
-    
+    musicDiv.querySelector("p").textContent = musicObj.link
+
+    musicDiv.addEventListener("click",(e)=>{
+        console.log(musicDiv.querySelector("p").textContent)
+        const Mvideo =  videoDiv.querySelector("iframe")
+        Mvideo.src = musicDiv.querySelector("p").textContent
+    })
     musicL.append(musicDiv)
+
+    const videoDiv = document.getElementById("videoDiv")
+    videoDiv.innerHTML = `<iframe src="https://player.vimeo.com/video/330696160?h=48d5474b37" width="940" height="760" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>`
+
+    // musicDiv.querySelector("iframe").src = musicObj.link
+    // const Mvideo =  videoDiv.querySelector("iframe")
+    // Mvideo.src = musicObj.link
+
+
 }
 
 const button = document.getElementById("create-button")
@@ -82,29 +99,19 @@ const name1 = document.getElementById("name1")
 
 showMe = (e)=> {
     e.preventDefault()
-    // console.log(e.target.parentNode)
-    // console.log(e.target.querySelector("img"))
     let sele = e.target.parentNode.id
     let para = document.querySelector(`#${sele} > p`)
-    para.style.fontSize = "50px";
-    // make the p innertext expand
+    console.log(para)
+    if (para.style.fontSize === "50px") {
+        console.log("#1")
+        para.style.fontSize = "0px";
+    } else {
+        console.log("fix it")
+        para.style.fontSize = "50px";
+    }
 }
 
 name1.addEventListener("click", showMe)
 name2.addEventListener("click", showMe)
 name3.addEventListener("click", showMe)
 name4.addEventListener("click", showMe)
-
-hap1 = document.getElementById("p1")
-console.log(hap1)
-
-// 
-takeAway =(e)=>{
-    e.preventDefault()
-    console.log(e.target)
-    let hap = e.target
-    hap.style.fontSize = "0px";
-    
-}
-
-hap1.addEventListener("click", takeAway)
