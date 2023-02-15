@@ -99,7 +99,13 @@ p {
   text-align: center;
 }
 
-
+.duggan img,
+.mason img,
+.laurence img,
+.regan img {
+  width: 100px;
+  height: 100px;
+}
 /* #create-button {
   
 } */
