@@ -85,12 +85,12 @@ showMe = (e)=> {
     let sele = e.target.parentNode.id
     let para = document.querySelector(`#${sele} > p`)
     console.log(para)
-    if (para.style.fontSize === "50px") {
+    if (para.style.fontSize === "20px") {
         console.log("#1")
         para.style.fontSize = "0px";
     } else {
         console.log("fix it")
-        para.style.fontSize = "50px";
+        para.style.fontSize = "20px";
     }
 }
 
