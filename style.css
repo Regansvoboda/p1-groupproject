@@ -15,7 +15,7 @@ body {
     text-align: center;
     color:antiquewhite;
     position: sticky; top:0;
-    background-color: black;
+    background-color:;
 }
 
 .card {
@@ -82,11 +82,21 @@ p {
 
 .hot-div {
  text-align: center;
+
 }
 
-.hot-div img {
+.hot-div .ha1 img,
+.hot-div
+.ha2 img{
   width: 450px;
   height: 300px;
+}
+
+.hot-div .ha3 img ,
+.hot-div .ha4 img{
+  width: 400px;
+  height: 300px;
+  text-align: center;
 }
 
 
