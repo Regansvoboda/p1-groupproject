@@ -15,7 +15,6 @@ body {
     text-align: center;
     color:antiquewhite;
     position: sticky; top:0;
-    background-color:;
 }
 
 .card {
@@ -123,4 +122,7 @@ p {
 .regan img {
   width: 125px;
   border-radius: 50%;
+}
+p.hide{
+  font-size: 0px;
 }

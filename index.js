@@ -75,4 +75,36 @@ button.addEventListener('mouseout', (e)=> {
     e.target.style.width = "auto"
     e.target.style.color = "black"
 })
+const name4 = document.getElementById("name4")
+const name3 = document.getElementById("name3")
+const name2 = document.getElementById("name2")
+const name1 = document.getElementById("name1")
 
+showMe = (e)=> {
+    e.preventDefault()
+    // console.log(e.target.parentNode)
+    // console.log(e.target.querySelector("img"))
+    let sele = e.target.parentNode.id
+    let para = document.querySelector(`#${sele} > p`)
+    para.style.fontSize = "50px";
+    // make the p innertext expand
+}
+
+name1.addEventListener("click", showMe)
+name2.addEventListener("click", showMe)
+name3.addEventListener("click", showMe)
+name4.addEventListener("click", showMe)
+
+hap1 = document.getElementById("p1")
+console.log(hap1)
+
+// 
+takeAway =(e)=>{
+    e.preventDefault()
+    console.log(e.target)
+    let hap = e.target
+    hap.style.fontSize = "0px";
+    
+}
+
+hap1.addEventListener("click", takeAway)
