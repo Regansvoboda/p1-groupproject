@@ -37,7 +37,6 @@ fetch(musicAPI)
 
 function renderMusicList(musicObj) {
     const musicDiv = document.createElement("div")
-
     musicDiv.className = 'card'
     musicDiv.innerHTML = `
     <h2></h2>
