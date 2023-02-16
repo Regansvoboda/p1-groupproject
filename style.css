@@ -101,31 +101,30 @@ p {
   text-align: center;
 }
 
-.user-pic img {
-  display: inline;
-  float: left;
-  padding: 150px;
-  width: 25%;
-  /*text-align: -webkit-match-parent;*/
+.user-pic {
+  text-align: justify;
+  width: 125px;
 }
 
-.duggan {
+.user-pic img {
+  /* float: left; */
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+ 
+}
+
+/* .duggan {
     background-color: aqua;
   } 
   
   .mason {
     background-color: magenta;
     
-  }
+  } */
 
-
-
-
-
-
-
-
-.duggan img {
+/* .duggan img {
   width: 125px;
   border-radius: 50%;
 } 
@@ -141,7 +140,7 @@ p {
 .regan img {
   width: 125px;
   border-radius: 50%;
-}
+} */
 p.hide{
   font-size: 0px;
 }
