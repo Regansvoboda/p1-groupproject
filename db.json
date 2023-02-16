@@ -10,15 +10,15 @@
     {
       "id": "2",
       "artist": "Michael Jackson",
-      "title": "Smooth Criminal",
-      "album": "https://upload.wikimedia.org/wikipedia/en/3/33/Smooth_Criminal.jpg",
+      "title": "Billie Jean",
+      "album": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
       "link": "https://player.vimeo.com/video/172129505?h=99bf876c7a"
     },
     {
       "id": "3",
       "artist": "Pitbull",
-      "title": "Hotel Room Service",
-      "album": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png/220px-Pitbull_-_Hotel_Room_Service_%28Single_Cover%29M-E.png",
+      "title": "Calle Ocho",
+      "album": "https://upload.wikimedia.org/wikipedia/en/0/06/Rebelution.png",
       "link": "https://player.vimeo.com/video/8344983?h=53f3c117ef"
     },
     {
@@ -43,20 +43,7 @@
       "id": "CHR-yan"
     },
     {
-      "title": "FourFiveSeconds",
-      "artist": "Rihanna, Kanye West, Paul McCartney ",
-      "album": "https://upload.wikimedia.org/wikipedia/en/7/7e/FourFiveSeconds_cover.png",
-      "id": "ea0C9My"
-    },
-    {
-      "title": "gggg",
-      "artist": "Rihanna, Kanye West, Paul McCartney ",
-      "album": "https://upload.wikimedia.org/wikipedia/en/7/7e/FourFiveSeconds_cover.png",
-      "link": "https://player.vimeo.com/video/205347044?h=51561943ac",
-      "id": "eYELsjw"
-    },
-    {
-      "title": "g2",
+      "title": "Four Five Seconds",
       "artist": "Rihanna, Kanye West, Paul McCartney ",
       "album": "https://upload.wikimedia.org/wikipedia/en/7/7e/FourFiveSeconds_cover.png",
       "link": "https://player.vimeo.com/video/205347044?h=51561943ac",

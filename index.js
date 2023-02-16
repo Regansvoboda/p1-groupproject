@@ -135,3 +135,33 @@ console.log(duggan)
 console.log(mason)
 console.log(laurence)
 console.log(regan)
+
+showMe2 = (e)=> {
+    e.preventDefault()
+    let sele = e.target.parentNode.id
+    let para = document.querySelector(`#${sele} > p`)
+    let h3 = document.querySelector(`#${sele} > h3`)
+    let pic = document.querySelector(`#${sele} > img`)
+    console.log(h3)
+    console.log(para)
+    // pic.style.width = "250px"
+    if (para.style.fontSize === "20px") {
+        para.style.fontSize = "0px";
+    } else {
+        para.style.fontSize = "20px";
+    }
+    if (h3.style.fontSize === "50px") {
+        h3.style.fontSize = "0px";
+    } else {
+        h3.style.fontSize = "50px";
+    }
+    if (pic.style.width === "300px") {
+        pic.style.width = "125px";
+    } else {
+        pic.style.width = "300px";
+    }
+}
+laurence.addEventListener("click", showMe2)
+duggan.addEventListener("click", showMe2)
+mason.addEventListener("click", showMe2)
+regan.addEventListener("click", showMe2)
