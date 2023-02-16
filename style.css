@@ -109,6 +109,22 @@ p {
   /*text-align: -webkit-match-parent;*/
 }
 
+.duggan {
+    background-color: aqua;
+  } 
+  
+  .mason {
+    background-color: magenta;
+    
+  }
+
+
+
+
+
+
+
+
 .duggan img {
   width: 125px;
   border-radius: 50%;

@@ -12,6 +12,7 @@ newCard.addEventListener('submit', e=> {
         title: e.target.title.value,
         artist: e.target.artist.value,
         album: e.target.album.value,
+        link: newCard.link.value
 
     }
     
@@ -24,6 +25,7 @@ newCard.addEventListener('submit', e=> {
     .then(newMusicCard => {
         renderMusicList(newMusicCard)
     })
+    newCard.reset()
 })
 
 fetch(musicAPI)
@@ -51,6 +53,16 @@ function renderMusicList(musicObj) {
     musicDiv.querySelector("h3").textContent = musicObj.title
     musicDiv.querySelector("img").src = musicObj.album
     musicDiv.querySelector("p").textContent = musicObj.link
+    //////////if sizing artist's name ///////////
+    if (musicDiv.querySelector("h2").textContent.length < 25) {
+        console.log("just right")
+
+    } if (musicDiv.querySelector("h2").textContent.length > 25) {
+        console.log("too big yo")
+        musicDiv.querySelector("h2").style.fontSize = "15px"
+
+    }
+
 
     musicDiv.addEventListener("click",(e)=>{
         console.log(musicDiv.querySelector("p").textContent)
@@ -114,3 +126,12 @@ name1.addEventListener("click", showMe)
 name2.addEventListener("click", showMe)
 name3.addEventListener("click", showMe)
 name4.addEventListener("click", showMe)
+
+const duggan = document.querySelector("#duggan")
+const mason = document.querySelector("#mason")
+const laurence = document.querySelector("#laurence")
+const regan = document.querySelector("#regan")
+console.log(duggan)
+console.log(mason)
+console.log(laurence)
+console.log(regan)
