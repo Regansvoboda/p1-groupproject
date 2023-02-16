@@ -161,7 +161,41 @@ showMe2 = (e)=> {
         pic.style.width = "300px";
     }
 }
-laurence.addEventListener("click", showMe2)
-duggan.addEventListener("click", showMe2)
-mason.addEventListener("click", showMe2)
-regan.addEventListener("click", showMe2)
+MouseI = (e)=> {
+    e.preventDefault()
+    let sele = e.target.parentNode.id
+    let para = document.querySelector(`#${sele} > p`)
+    let h3 = document.querySelector(`#${sele} > h3`)
+    let pic = document.querySelector(`#${sele} > img`)
+    para.style.fontSize = "15px"
+    h3.style.fontSize = "24px"
+    pic.style.width = "150px"
+
+}
+MouseII = (e)=> {
+    e.preventDefault()
+    let sele = e.target.parentNode.id
+    let para = document.querySelector(`#${sele} > p`)
+    let h3 = document.querySelector(`#${sele} > h3`)
+    let pic = document.querySelector(`#${sele} > img`)
+    para.style.fontSize = "0px"
+    h3.style.fontSize = "0px"
+    pic.style.width = "125px"
+
+}
+
+laurence.addEventListener("mouseover", MouseI)
+laurence.addEventListener("mouseout", MouseII)
+
+duggan.addEventListener("mouseover", MouseI)
+duggan.addEventListener("mouseout", MouseII)
+
+mason.addEventListener("mouseover", MouseI)
+mason.addEventListener("mouseout", MouseII)
+
+regan.addEventListener("mouseover", MouseI)
+regan.addEventListener("mouseout", MouseII)
+
+// duggan.addEventListener("click", showMe2)
+// mason.addEventListener("click", showMe2)
+// regan.addEventListener("click", showMe2)
