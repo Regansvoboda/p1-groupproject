@@ -55,6 +55,20 @@
       "album": "https://m.media-amazon.com/images/M/MV5BNzIyZjFkZTEtN2IzNS00OGM5LWI0ZGEtOWEwZjhhZmNmZjcxXkEyXkFqcGdeQXVyNjE0ODc0MDc@._V1_.jpg",
       "link": "https://player.vimeo.com/video/209125543?h=62ae26268c",
       "id": "yDO95QT"
+    },
+    {
+      "title": "Friday",
+      "artist": "Mufasa",
+      "album": "https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Riton_-_Friday.png/220px-Riton_-_Friday.png",
+      "link": "https://player.vimeo.com/video/516238225?h=0c77a44146",
+      "id": "dgaoQVV"
+    },
+    {
+      "title": "Candy Paint",
+      "artist": "Post Malone",
+      "album": "https://upload.wikimedia.org/wikipedia/en/c/c1/Beerbongs_%26_Bentleys_by_Post_Malone.png",
+      "link": "https://player.vimeo.com/video/718107824",
+      "id": "ZDFgVgX"
     }
   ]
 }
