@@ -1,5 +1,5 @@
 body {
-  background-image: url("https://i.pinimg.com/736x/67/89/3d/67893d8635879212caf58ac6d01e8c73.jpg");
+  background-color: black;
   background-size: cover;
   background-position: center;
   height: 2000px;
@@ -7,20 +7,28 @@ body {
  
 .Music-heading {
 text-align: center;
-color: antiquewhite;
-font-family: Georgia, 'Times New Roman', Times, serif;
+color: #C3B1E1;
+font-family: "Bubblegum Sans";
+font-size: 60px;
+/* font-family: "Bowlby One SC"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;  */
+/* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/617/161/small/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg"); */
+}
+
+#music-list {
+  background-color: rgba(40,40,40, 0.4);
 }
 
 .submit-form {
   text-align: center;
-  color:antiquewhite;
+  color: white;
   position: sticky; top:0;
+  background-color: rgba(195, 177, 225, 0.2);
 }
 
 .card {
 text-align: center;
-background-image: linear-gradient(to bottom left,aqua, #9FE2BF,#4169E1);
-border: #6082B6 solid 1px;
+/* background-image: linear-gradient(to bottom left,#282828, #585858,#282828); */
+/* border: #6082B6 solid 1px; */
 border-radius: 7px;
 padding: 1rem;
 width: 15rem;
@@ -28,11 +36,16 @@ height: 20rem;
 display: inline-grid;
 margin: 1rem 2rem;
 flex-direction: column;
+background-color: rgba(40,40,40, 0.6);
+color: white;
+box-shadow: 10px 10px 8px .5px #000000;
 }  
 
 .card:hover {
-color: var(--white);
-background-image: linear-gradient(white, gray);
+/* color: var(--white); */
+/* background-color: rgba(40,40,40, 0.8); */
+background-image: linear-gradient(#282828, #383838 ,#282828);
+color: white;
 
 }
 
@@ -68,8 +81,10 @@ text-align: center;
 
 #hot-artist-title {
 text-align: center;
-color: antiquewhite;
-background-color: #36454F;
+color: white;
+background-color: rgba(195, 177, 225, 0.4);
+margin-left: 50px;
+margin-right: 50px;
 }
 
 .name {
@@ -86,8 +101,10 @@ color: antiquewhite;
 text-align: center;
 display: grid;
 padding-bottom: 50px;
-
-
+background-color: rgba(40,40,40, 0.4);
+margin-left: 20%;
+margin-right: 20%;
+color: white;
 }
 
 .hot-div .ha1 img,
@@ -116,6 +133,7 @@ text-align: -webkit-match-parent; */
 
 .user-pic {
   text-align: center;
+  color: white;
 }
 #duggan img {
 width: 125px;
@@ -146,4 +164,8 @@ font-size: 0px;
 }
 .card p {
 font-size: 0px;
+}
+
+h3 {
+  font-size: 15px;
 }

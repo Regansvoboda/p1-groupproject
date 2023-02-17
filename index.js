@@ -42,16 +42,16 @@ function renderMusicList(musicObj) {
     musicDiv.className = 'card'
     musicDiv.innerHTML = `
     <h2></h2>
-    <h3></h3>
     <img class='album-cover' />
+    <h3></h3>
     <p></p>
     `
     
     // <button id='listen-button' class='listen-button'>Listen</button>
     
     musicDiv.querySelector("h2").textContent = musicObj.artist
-    musicDiv.querySelector("h3").textContent = musicObj.title
     musicDiv.querySelector("img").src = musicObj.album
+    musicDiv.querySelector("h3").textContent = musicObj.title
     musicDiv.querySelector("p").textContent = musicObj.link
     //////////if sizing artist's name ///////////
     if (musicDiv.querySelector("h2").textContent.length < 25) {
