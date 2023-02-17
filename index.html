@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <title>Group Project</title>
-        <link rel="stylesheet" href="style.css" />
-        <script defer type="text/javascript" src="index.js"></script>
+<head>
+  <title>Group Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer type="text/javascript" src="index.js"></script>
+</head>
+      
+<body>
+
+<h1 id="wizrd" class="Music-heading">WIZRD</h1>
+<div class="anchors">  
+  <a href="#videoDiv">Video</a>
+  <a href="#hot-artist-title">Hot Artists</a>
+  <a href="#duggan">Creators</a>
+</div>  
+<div class="submit-form">
+  <form id="new-song">
+    <p class="submit-p">START LISTENING...</p>
+      
+    <label for="title">Title: </label>
+    <input type="text" name="title" id="" value="" placeholder="Insert Title..." />
         
-      </head>
-      
-      <body>
+    <label for="artist">Artist: </label>
+    <input type="text" name="artist" id="" value="" placeholder="Insert Artist..." />
+        
+    <label for="album">Album: </label>
+    <input type="text" name="album" id="" value="" placeholder="Insert Album Link..." />
 
-        <h1 class="Music-heading">WIZRD</h1>  
-  <div class="submit-form">
-    <form id="new-song">
-      <p class="submit-p">START LISTENING...</p>
-      
-      <label for="title">Title: </label>
-      <input type="text" name="title" id="" value="" placeholder="Insert Title..." />
-          
-      <label for="artist">Artist: </label>
-      <input type="text" name="artist" id="" value="" placeholder="Insert Artist..." />
-          
-      <label for="album">Album: </label>
-      <input type="text" name="album" id="" value="" placeholder="Insert Album Link..." />
-
-      <label for="link">Music Video Link: </label>
-      <input type="text" name="link" id="" value="" placeholder="Insert Music Video Link..." />
+    <label for="link">Music Video Link: </label>
+    <input type="text" name="link" id="" value="" placeholder="Insert Music Video Link..." />
                     
       <input id="create-button" type="submit" value="Create" />
-    </form>
-  </div>
+  </form>
+</div>
        
 
 <div id="main-page">
@@ -37,34 +41,108 @@
     <ul>
     </ul>
   </div>
-      <div class="videoDiv" id="videoDiv">
-  </div>
-    
- <h1 id="hot-artist-title">Hot Artist Today</h1>
+  
+  <h1 class="video-Div" id="videoDiv">Now Playing</h1>
+  
+  <h1 id="hot-artist-title">Hot Artist Today!</h1>
   <div class="hot-div">
-    <div id="name1" class="ha1">
-       <h2 class="ha1">SZA</h2>
-       <img src="https://imageio.forbes.com/specials-images/imageserve/600e12d05d17c0633f005e00/0x0.jpg?format=jpg&width=1200">
-       <p id="p1" class="hide">Solána Imani Rowe "SZA" is a 33 year old singer/songwriter from St. Louis, Missouri. <br> With 14 Grammy Award nominations, a Golden Globe nomination and an Academy Award nomination <br> she was was applauded in September of 2022 for being one of the rising stars on the TIME 100 Next List. <br> SZA's recently released album 'SOS' is No. 1 album for an Eigth time in a row.</p>
-    </div>  
-        
+    
     <div id="name2" class="ha2">
       <h2 class="ha2">Morgan Wallen</h2>
         <img src="https://www.billboard.com/wp-content/uploads/2022/12/Morgan-Wallen-press-2022-cr-John-Shearer-billboard-1548.jpg">
-        <p class="hide">Morgan Wallen is a 29 year old singer/songwriter from Sneedville, Tennessee. <br> Morgan Wallen has opened for both hit country singers Luke Bryan and Luke Combs. <br> His first tour 'The Dangerous Tour' in 2022 was sold out after selling 839,704 tickets. <br> The 'One Night At A Time Tour' is expected to start in June of 2023. <br> Out of 26 nominations scattered across various music awards, Morgan Wallen walked away with 10 wins.</p>
+        <p class="hide">Morgan Wallen is a 29 year old singer/songwriter from Sneedville, Tennessee.<br>
+          Morgan Wallen has opened for both hit country singers<br> 
+          Luke Bryan and Luke Combs. His first tour 'The Dangerous Tour'<br>
+          in 2022 was sold out after selling 839,704 tickets.<br> 
+          The 'One Night At A Time Tour' is expected to start in<br>
+          June of 2023. Out of 26 nominations scattered<br>
+          across various music awards, Morgan Wallen walked away with 10 wins.</p>
+    </div>
+    
+    <div id="name1" class="ha1">
+       <h2 class="ha1">SZA</h2>
+       <img src="https://upload.wikimedia.org/wikipedia/en/b/bf/SZA_-_Ctrl_cover.png">
+       <p id="p1" class="hide">Solána Imani Rowe "SZA" is a 33 year old singer/songwriter<br>
+        from St. Louis, Missouri. With 14 Grammy Award nominations,<br>
+        a Golden Globe nomination and an Academy Award nomination<br>
+        she was was applauded in September of 2022 for being one of<br>
+        the rising stars on the TIME 100 Next List. SZA's recently<br>
+        released album 'SOS' is No. 1 album for an Eigth time in a row.</p>
+    </div>  
+        
+    <div id="name8" class="ha8">
+      <h2 class="ha8">Toto</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/en/a/a1/Toto_Toto.jpg">
+        <p class="hide">Toto is an American rock band formed in Los Angeles, California in 1977.<br>
+          The band is known for their blend of rock, pop, and progressive music,<br>
+          and their skilled musicianship. Toto's enduring popularity has made them<br>
+          one of the most successful American bands of the 1980s.<br>
+          Toto was formed in 1977 by vocalist Bobby Kimball, guitarist<br>
+          and vocalist Steve Lukather, keyboardist and vocalist David Paich,<br>
+          bassist David Hungate, keyboardist Steve Porcaro and drummer Jeff Porcaro.</p>
     </div>
 
     <div id="name3" class="ha3">
       <h2 class="ha3">Harry Styles</h2>
-        <img src="https://media.npr.org/assets/img/2020/02/27/wide-use_hpromophoto_helenepambrun-72fdb64792139d94a06f18686d0bb3131a238a70-s1100-c50.jpg">
-        <p class="hide">Harry Styles is 29 year old singer, songwriter and actor. Alongside those, he is also considered a fashion icon. <br> His music ranges 8 different genres, but most recoognized in Pop. The 'Love On Tour', already racking up a total of 169 shows, <br> began in September of 2021 and is not scheduled to end until July of 2023. <br> From the start of his career in 2010, Harry styles has accumulated 138 nominations in which he won 76 of.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b1/Harry_Styles_-_Fine_Line.png">
+        <p class="hide">Harry Styles is 29 year old singer, songwriter and actor.<br>
+          Alongside those, he is also considered a fashion icon.<br> 
+          His music ranges 8 different genres, but most recoognized in Pop.<br>
+          The 'Love On Tour', already racking up a total of 169 shows,<br>
+          began in September of 2021 and is not scheduled to end until July of 2023.<br>
+          From the start of his career in 2010, Harry styles<br>
+          has accumulated 138 nominations in which he won 76 of.</p>
     </div>
 
     <div id="name4" class="ha4">
       <h2 class="ha4">Zach Bryan</h2>
-        <img src="https://static.stereogum.com/uploads/2022/07/27ABF3C5-71C5-4340-88BF-3CDF9D5E14CD-1657994613.jpeg">
-        <p class="hide">Zach Bryan is a 26 year old singer/songwriter that grew up in Oologah, Oklahoma. <br> After Eight years of sering in the U.S Navy, he was honorably discharged to pursue his musical career. <br> His album 'American Heartbreak' released in May of 2022 debuted on the US Billboard <br> 200 charting at number Five and making it the biggest first week for a country album in 2022.</p>
+        <img src="https://i.scdn.co/image/ab6761610000e5eb4fd54df35bfcfa0fc9fc2da7">
+        <p class="hide">Zach Bryan is a 26 year old singer/songwriter that grew up in Oologah, Oklahoma.<br> 
+          After Eight years of sering in the U.S Navy, he was honorably<br>
+          discharged to pursue his musical career. His album<br>
+          'American Heartbreak' released in May of 2022 debuted on the US Billboard<br> 
+          200 charting at number Five and making it<br>
+          the biggest first week for a country album in 2022.</p>
     </div>
+
+    <div id="name5" class='ha5'>
+      <h2 class='ha5'>Odesza</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Odesza_2015.jpg/450px-Odesza_2015.jpg">
+        <p class="hide">Odesza  is an American electronic music duo<br> 
+          originating from Bellingham, Washington. It consists of Harrison Mills<br>
+          and Clayton Knight, known individually as Catacombkid<br> 
+          and BeachesBeaches. They formed in 2012, shortly before Mills and Knight<br> 
+          graduated from Western Washington University. Their debut album,<br>
+          Summer's Gone, was released later in 2012 to acclaim<br>
+          in the underground electronic music community.</p>
+    </div>
+
+    <div id="name6" class="ha6">
+      <h2 class="ha6">Eminem</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eminem_%28cropped%29.jpg/300px-Eminem_%28cropped%29.jpg">
+        <p class="hide">Eminem is an American rapper, songwriter, and record producer<br> 
+          born in St. Joseph, Missouri in 1972. He gained widespread popularity<br>
+          in the late 1990s with the release of "The Slim Shady LP" in 1999,<br>
+          known for his complex wordplay, controversial lyrics, and rapid-fire delivery.<br>
+          He has sold over 150 million records worldwide,<br>
+          making him one of the best-selling music artists of all time.</p>
+    </div>
+
+    <div id="name7" class="ha7">
+      <h2 class="ha7">Polyphia</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Polyphia_-_Manchester%2C_UK_-_6_February_2019.jpg/400px-Polyphia_-_Manchester%2C_UK_-_6_February_2019.jpg">
+        <p class="hide">Polyphia is a primarily instrumental progressive <br> 
+          rock band based in Plano, Texas, formed in 2010.<br>
+          The group consists of guitarists Tim Henson and<br> 
+          Scott LePage, bassist Clay Gober, and drummer Clay Aeschliman.<br>
+          The band was originally known for classical guitar covers on YouTube. In a<br>
+          2013 interview, when asked about the name of the band<br>
+          the following answer was given: "It comes from the word "Polyphony",<br>
+          meaning "music whose texture is defined by<br>
+          the interweaving of several melodic lines".</p>
+    </div>
+
+
   </div>
   
   
@@ -73,14 +151,10 @@
       <h3>Duggan</h3>
         <img src="images/IMG_1048 (1).jpg" alt="" title="">
       <!-- <figcaption class="card-title">Duggan SHOW</figcaption> -->
-      <p>all about Duggan
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-      </p>
+      <p class="hide">Flatiron Student<br>
+         Future Software Engineer<br>
+         Oak Lawn, Illestnoise<br>
+         Fav Artist: Van Morrison</p>
     </div>
     
       
@@ -88,7 +162,10 @@
       <h3>Mason</h3>
       <img src="images/Little Me (1).jpg" alt="" title="">
       <!-- <figcaption class="card-title">Mason</figcaption> -->
-      <p></p>
+      <p class="hide">Flatiron Student<br>
+         Future Software Engineer<br>
+         Bridgewater, NJ<br>
+         Fav Artist: Jack Johnson</p>
     </div> 
       
        
@@ -96,14 +173,10 @@
         <h3>Laurence</h3>
         <img src="images/img_3655_720 (1).jpg" alt="" title="">
       <!-- <figcaption class="card-title">Laurence</figcaption> -->
-      <p>all about laurence
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-      </p>
+      <p class="hide">Flatiron Student<br>
+         Future Software Engineer<br>
+         Bay St. Louis, Mississippi<br>
+         Fav Artist: Waylon Jennings</p>
     </div>
     
     
@@ -111,14 +184,10 @@
       <h3>Regan</h3>
         <img src="images/IMG_5851copy.jpg" alt="" title="">
       <!-- <figcaption class="card-title">Regan</figcaption> -->
-      <p>all about Regan
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-        blah blah blah blah
-      </p>
+      <p class="hide">Flatiron Studen<br>
+         Future Software Engineer<br>
+         Chicago, Illestnoise<br>
+         Fav Artist: 21 Savage</p>
     </div>
 </div>
 </body>

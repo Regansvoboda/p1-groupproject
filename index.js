@@ -113,12 +113,12 @@ showMe = (e)=> {
     let sele = e.target.parentNode.id
     let para = document.querySelector(`#${sele} > p`)
     console.log(para)
-    if (para.style.fontSize === "20px") {
+    if (para.style.fontSize === "15px") {
         console.log("#1")
         para.style.fontSize = "0px";
     } else {
         console.log("fix it")
-        para.style.fontSize = "20px";
+        para.style.fontSize = "15px";
     }
 }
 
@@ -126,6 +126,10 @@ name1.addEventListener("click", showMe)
 name2.addEventListener("click", showMe)
 name3.addEventListener("click", showMe)
 name4.addEventListener("click", showMe)
+name5.addEventListener("click", showMe)
+name6.addEventListener("click", showMe)
+name7.addEventListener("click", showMe)
+name8.addEventListener("click", showMe)
 
 const duggan = document.querySelector("#duggan")
 const mason = document.querySelector("#mason")

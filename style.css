@@ -7,11 +7,18 @@ body {
  
 .Music-heading {
 text-align: center;
-color: #C3B1E1;
+color: rgba(40,40,40, 0.8);
 font-family: "Bubblegum Sans";
-font-size: 60px;
+font-size: 90px;
+text-shadow: 5px 1px #6082B6;
+margin-bottom: 0px;
 /* font-family: "Bowlby One SC"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;  */
 /* background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/617/161/small/abstract-gradient-pastel-blue-and-purple-background-neon-pastel-color-template-for-website-or-presentation-free-free-vector.jpg"); */
+}
+
+.anchors {
+  text-align: center;
+  font-size: 25px;
 }
 
 #music-list {
@@ -21,6 +28,7 @@ font-size: 60px;
 .submit-form {
   text-align: center;
   color: white;
+  font-size: 25px;
   position: sticky; top:0;
   background-color: rgba(195, 177, 225, 0.2);
 }
@@ -75,16 +83,23 @@ width: auto;
   justify-self: center
 }
 
-.videoDiv {
+.video-Div {
 text-align: center;
+background-color: #6082B6;
+border-radius: 7px;
+margin-right: 450px;
+margin-left: 450px;
+margin-top: 10px;
 }
 
 #hot-artist-title {
 text-align: center;
 color: white;
-background-color: rgba(195, 177, 225, 0.4);
-margin-left: 50px;
-margin-right: 50px;
+font-size: 40px;
+background-color: black;
+margin-left: 80px;
+margin-right: 80px;
+padding-top: 50px;
 }
 
 .name {
@@ -105,21 +120,52 @@ background-color: rgba(40,40,40, 0.4);
 margin-left: 20%;
 margin-right: 20%;
 color: white;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: (4, 5vw);
+grid-gap: 5px;
 }
 
-.hot-div .ha1 img,
-.hot-div
+.hot-div img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.ha1 img{
+  height: 150px;
+}
+
 .ha2 img{
-width: 450px;
-height: 300px;
+width: 250px;
+height: 180px;
 }
 
-.hot-div .ha3 img ,
-.hot-div .ha4 img{
-width: 400px;
-height: 300px;
-text-align: center;
+.ha3 img {
+  width: 250 px;
+  height: 180px; 
+}
 
+.ha4 img{
+  width: 250px;
+  height: 150px;
+  text-align: center;
+}
+
+.ha5 img {
+  height: 190px;
+}
+
+.ha6 img {
+  height: 190px;
+}
+
+.ha7 img {
+  height: 190px;
+}
+
+.ha8 img{
+  height: 180px;
 }
 
 /* .user-pic img { */
@@ -134,22 +180,30 @@ text-align: -webkit-match-parent; */
 .user-pic {
   text-align: center;
   color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: (1, 5vw);
+  grid-gap: 5px;
+  padding-top: 50px;
+  padding-bottom: 250px;
 }
+
+
 #duggan img {
 width: 125px;
 border-radius: 50%;
 } 
 
-
 #mason img {
 width: 125px;
 border-radius: 50%;
 }
+
 #laurence img {
 width: 125px;
 border-radius: 50%;
 }
-.ourinfo p, 
+ 
 .ourinfo h3 {
   font-size: 0px;
   /* text-align: center; */
